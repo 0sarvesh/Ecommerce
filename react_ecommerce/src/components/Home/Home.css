@@ -1,0 +1,64 @@
+.home{
+    background-color:rgb(236, 233, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;padding: 5px;
+    .title{
+        
+        .t{
+            font-size: 100px;
+            font-family:'Times New Roman', Times, serif;
+            color:rgb(100, 100, 100);
+        }
+    }
+    .cont2{
+       padding-right: 20px;
+       .recycle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .rec{
+            margin-top: 10px;
+            width: 100px;
+        }
+       }
+        .bar{
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
+.redirect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 225, 225);
+    padding: 2px;
+   
+    .shop{
+        border: none;
+         font-size: 30px;
+         background-color: white;
+         height: 100%;
+         color: black;
+         font-weight: 700;
+        width: 400px;
+        padding: 20px;
+        border-radius: 10px;
+
+
+    }
+    .shop:hover {
+        background-color:rgb(175, 174, 172);
+        color: white;
+    }
+    .box{
+        width: 100px;
+        background-color: white;
+        margin: 20px;
+        height: 70px;
+        border-radius: 10px;
+        
+    }
+}

@@ -1,0 +1,23 @@
+.cart_details_product{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 10px;
+}
+.payment_details{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;  
+    border: 1px solid black;
+    margin: 10px;
+    button{
+        border: none;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .pay{
+        color: red;
+        font-size: 50px;
+    }
+}
